@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="fb.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"></script>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" src="bootstrap.css">
+          <title>facebook layout</title>
+ 
+    </head>
+    <body>
+
+
+        <header class="h-container"><!--the idea is to devide the header into 4 cols, each with a space of 3-->
+            <div class="container-fluid bg-primary text-white fs-3 fw-bold rounded p-4 mt-2">
+                <div class="row">
+                    <div class="col-lg-3"><i class="fab fa-facebook"></i> facebook</div> <!--inserting fb icon, with facebook name-->
+                    <div class="col-lg-4"> 
+                        <form class="d-flex " role="search">
+                        <input class="form-control rounded" type="search" placeholder="search">
+                        <span class="search-icon bi bi-search bg-white"></span><!--Challenge
+                            The search icon couldn't be nested inside the search input-->
+                  </form></div>
+                    <div class="col-lg-3 d-flex float-end">
+                       <img  src="C:\Users\verna\OneDrive\Desktop\Facebook layout\WhatsApp Image 2024-04-24 at 11.42.30.jpeg" id="image-pp">
+                       <!--Trail for profile icon using bootstrap <form>
+                            <label for="profile-photo" class="form-label">Choose Profile Photo</label>
+                            <input class="form-control" type="file" id="profile-photo" accept="image/*">
+        
+                        <button type="submit" class="btn btn-primary">Upload</button>-->
+                    </form>              
+                    </div>
+                    <div class="col-lg-2  ">
+                    <div class="dropdown">
+                        <a class="btn btn-white dropdown-toggle float-end fw-bold  bg-white text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Menu</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Account settings</a></li>
+                                <li><a class="dropdown-item" href="#">Report</a></li>
+                                    <li><a class="dropdown-item" href="#">Reset password</a></li>
+                                        <li><a class="dropdown-item" href="#">LogOut</a></li>
+                        </ul>
+                    </div>
+            
+                
+            
+            </div>
+        </header>
+
+
+      <main>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 border border-success rounded fw-bold mt-2 mb-5">
+                    <div id="user-profile"><a href="#image-pp" target="_blank">User Profile</a></div>
+                    <div id="friends"><a href="#" target="_blank">Friends</a></div>
+                    <div id="groups"><a href="#" target="_blank">Groups</a></div>
+                    <div id="market-place"><a href="#" target="_blank">Marketplace</a></div>
+                    <div id="play-games"><a href="#" target="_blank">Play Games</a></div>
+                    <div id="videos"><a href="#" target="_blank">Videos</a></div>
+                    
+                </div>
+                <div class="col-lg-6  border border-success rounded">
+                            <div class="container border border-success rounded p-4 mt-2">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="border border-success rounded">What's on your mind...</div>
+                                    </div>
+                                    </div>
+                                <div class="row">
+                                    <div class="col-lg-4">Go live</div>
+                                    <div class="col-lg-4">Add Video/photo</div>
+                                    <div class="col-lg-4">Feeling</div>
+                                    <div></div>
+                                </div>
+                            </div>  
+                            
+
+                            <div class="post">
+                                <div class="post-main">
+                                    <img src="C:\Users\verna\OneDrive\Desktop\Facebook layout\WhatsApp Image 2024-04-24 at 11.48.51.jpeg" alt="Profile Picture">
+                                    <div class="post-main-info">
+                                        <h3>Test post</h3>
+                                        <p>Posted on April 24, 2024</p>
+                                    </div>
+                                </div>
+                                <div class="post-content">
+                                    <p>This is a sample Facebook post. "Success is not final, failure is not fatal, It is the courage to continue that counts. <blockquote>- Winston Churchill</blockquote></p>
+                                </div>
+                                <div class="post-actions">
+                                    <button>Like</button>
+                                    <button>Comment</button>
+                                    <button>Share</button>
+                                </div>
+                            </div>
+                         
+                            <div class="post">
+                                <div class="post-main">
+                                    <img src="C:\Users\verna\OneDrive\Desktop\Facebook layout\WhatsApp Image 2024-04-24 at 11.48.51.jpeg" alt="Profile Picture">
+                                    <div class="post-main-info">
+                                        <h3>Test post</h3>
+                                        <p>Posted on April 24, 2024</p>
+                                    </div>
+                                </div>
+                                <div class="post-content">
+                                    <p>This is a sample Facebook post. "Success is not final, failure is not fatal, It is the courage to continue that counts. <blockquote>- Winston Churchill</blockquote></p>
+                                    <video src="https://www.youtube.com/watch?v=_Fr2k1PsbD8"></video>
+                                </div>
+                                <div class="post-actions">
+                                    <button>Like</button>
+                                    <button>Comment</button>
+                                    <button>Share</button>
+                                </div>
+                            </div>
+                            
+                </div>
+                <div class="col-lg-3 border border-success rounded fw-bold mt-2 mb-5">
+                    <div id="active-friends"><a href="#" target="_blank">Active Friends</a></div>
+                    <div id="notifications"><a href="#" target="_blank">Notifications</a></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                
+
+
+
+
+            </div>
+
+
+
+
+
+        </div>
+      </main>
+        
+        <!--
+        <nav class="navbar navbar-expand-lg bg-primary mt-2 rounded p-4">
+            <div class="container-fluid ">
+                <i class="fab fa-facebook text-white fs-3 order-1">facebook</i>
+               <form class="d-flex " role="search">
+                    <input class="form-control" type="search" placeholder="search">
+                    <button class="btn btn-outlne-success bg-white" type="submit">Search</button>
+              </form>
+         
+            </div>
+            </div>
+
+        </nav>
+    -->
+        
+        
+        <!--
+
+        <h1>Hello, world!</h1>
+    <label for="exxampleDSata" class="form-label">Data example</label>
+    <input class="form-control" list="datalistOptions" id="exxampleDSata" placeholder="Type to search">
+    <datalist id="datalistOptions">
+        <option value="San Francisco">
+            <option>New York</option>
+
+
+    </datalist>
+    <select class="form-select mt-1" multiple size="3" aria-label="Default select example">
+       <option selected> open this element menu</option>
+       
+        <option value="1">one</option>
+        
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+        <option></option>
+        <option></option>
+
+    </select>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="form-checkDefauul">
+        <label for="form-checkDefauul"></label>
+
+
+    </div>
+    <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch">
+    </div>
+    <input type="checkbox" class="btn btn-check btn-primary" id="btn-check-4" autocomplete="off">
+    <label class="btn" for="btn-check-4">Single toggle</label>
+    <input type="range" class="form-range" min="0" max="100">
+<div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon1">@</span>
+    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+<div class="input-group mb-3">
+    <input type="text" class="form-control" placeholder="Recipients Username">
+    <span class="input-group-text" id="basic-addon2">@example</span>
+    
+</div>
+<div class="mb-3">
+    <label for="basic-url" class="form-label">Your vanity URL</label>
+    <div class="input-group">
+        <span class="input-group-text" id="basic-addon3">http://example.com/user/</span>
+        <input class="form-control" type="-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <footer>
+       <div class="container-fluid bg-primary rounded p-2 mt-1 fw-bold fs-5 ">
+            <div class="row">
+                <div class="col-lg-2"><a href="#" target="_blank">About</a></div>
+                <div class="col-lg-2"><a href="#" target="_blank">Privacy</a></div>
+                <div class="col-lg-2"><a href="#" target="_blank">More Ads</a></div>
+                <div class="col-lg-2"><a href="#" target="_blank">facebook&copy;2024</a></div>
+                <div class="col-lg-2"><a href="#" target="_blank">T&Cs</a></div>
+                <div class="col-lg-2"><a href="#" target="_blank">Upgrades</a></div>
+            </div>
+        </div>
+        
+    </footer>
+    </body>
+</html>

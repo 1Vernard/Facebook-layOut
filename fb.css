@@ -1,0 +1,78 @@
+ footer a {
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+
+main {
+    overflow: hidden;
+
+}
+#lef-side-bar,#right-side-bar{
+    height: auto;
+    border:1px solid rgb(242, 236, 236);
+    border-radius:10%;
+    background-color: whitesmoke;
+
+    }
+    
+    img{
+        overflow: hidden;
+        border-radius:50%;
+        width:20%;
+        height:50%;
+    }
+    main a{
+        text-decoration: none;
+        color:black;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f2f5;
+    }
+    
+    .post {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin: 20px auto;
+        max-width: 600px;
+        padding: 20px;
+    }
+    
+    .post-main {
+        display: flex;
+        align-items: center;
+    }
+    
+    .post-main img {
+        width: 10%;
+        height: 10%;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+    
+    .post-content {
+        margin-top: 10px;
+    }
+    
+    .post-actions {
+        margin-top: 10px;
+    }
+    
+    button {
+        background-color: #3e63ad;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 8px 16px;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #3b5998;
+    }
