@@ -22,6 +22,10 @@ main {
         width:20%;
         height:50%;
     }
+
+
+    
+    
     main a{
         text-decoration: none;
         color:black;
@@ -63,15 +67,7 @@ main {
         margin-top: 10px;
     }
     
-    button {
-        background-color: #3e63ad;
-        color: #fff;
-        border: none;
-        border-radius: 5px;
-        padding: 8px 16px;
-        margin-right: 10px;
-        cursor: pointer;
-    }
+    
     
     button:hover {
         background-color: #3b5998;
